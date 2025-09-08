@@ -1,0 +1,8 @@
+body{ font-family: system-ui, Arial; margin: 0; }
+.container{ padding: 18px; }
+.nav{ display:flex; gap:12px; padding:12px; background:#f7f7f7; }
+.grid{ display:grid; grid-template-columns: repeat(auto-fit,minmax(200px,1fr)); gap:12px; }
+.card{ padding:12px; border:1px solid #ddd; border-radius:8px; }
+.auth{ max-width:360px; margin:18px; display:flex; flex-direction:column; gap:8px; }
+.filters{ display:flex; gap:8px; margin-bottom:12px; }
+.cart-row{ border-bottom:1px solid #eee; padding:8px 0; display:flex; gap:12px; align-items:center; }
